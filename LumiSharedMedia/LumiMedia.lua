@@ -19,6 +19,10 @@ LSM:Register("background", "Torment2", [[Interface\AddOns\LumiSharedMedia\media\
 LSM:Register("background", "Torment3", [[Interface\AddOns\LumiSharedMedia\media\textures\Torment3.tga]])
 LSM:Register("background", "Torment4", [[Interface\AddOns\LumiSharedMedia\media\textures\Torment4.tga]])
 LSM:Register("background", "Torment5", [[Interface\AddOns\LumiSharedMedia\media\textures\Torment5.tga]])
+LSM:Register("background", "Ring", [[Interface\AddOns\LumiSharedMedia\media\textures\Ring.tga]])
+LSM:Register("background", "Ring2", [[Interface\AddOns\LumiSharedMedia\media\textures\Ring2.tga]])
+LSM:Register("background", "Ring3", [[Interface\AddOns\LumiSharedMedia\media\textures\Ring3.tga]])
+LSM:Register("background", "+", [[Interface\AddOns\LumiSharedMedia\media\textures\+.tga]])
 -- -----
 --   FONT
 -- -----
@@ -30,3 +34,9 @@ LSM:Register("font", "|cff8246faITCAvantGardeStdXLt|r", [[Interface\Addons\LumiS
 -- -----
 --   SOUND
 -- -----
+LSM:Register("sound", "|cFF8246faFront|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Front.mp3]])
+LSM:Register("sound", "|cFF8246faBackMiddle|r", [[Interface\Addons\LumiSharedMedia\media\sounds\BackMiddle.mp3]])
+LSM:Register("sound", "|cFF8246faLeft|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Left.mp3]])
+LSM:Register("sound", "|cFF8246faBackLeft|r", [[Interface\Addons\LumiSharedMedia\media\sounds\BackLeft.mp3]])
+LSM:Register("sound", "|cFF8246faRight|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Right.mp3]])
+LSM:Register("sound", "|cFF8246faBackRight|r", [[Interface\Addons\LumiSharedMedia\media\sounds\BackRight.mp3]])
