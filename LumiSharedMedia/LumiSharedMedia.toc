@@ -1,6 +1,6 @@
 ## Interface: 90200
-## Title: |cffF4F4F4SharedMedia|r - |cff8246faLumi|r
-## Notes: |cfffa4682Assets for Lumilul on Illidan US |r- |cff46fa82Contains Fonts, Textures, and Sounds used in WeakAuras.|r
+## Title: |cfffafafaSharedMedia  -|r |cff8264faLumi|r
+## Notes: |cfffa6482Assets for Lumilul on Illidan US|r  |cfffafafa-|r |cff64fa82Contains Fonts, Textures, and Sounds used in WeakAuras|r|cfffafafa.|r
 ## Version: 1.0.0
 ## Author: Emilyp@Illidan / Lumilul@Illidan
 
