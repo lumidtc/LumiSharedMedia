@@ -28,6 +28,29 @@ LSM:Register("background", "+", [[Interface\AddOns\LumiSharedMedia\media\texture
 --Logo
 --
 LSM:Register("background", "Logo", [[Interface\AddOns\LumiSharedMedia\media\textures\Logo.tga]])
+LSM:Register("background", "Elv", [[Interface\AddOns\LumiSharedMedia\media\textures\Elv.tga]])
+LSM:Register("background", "ElvUI", [[Interface\AddOns\LumiSharedMedia\media\textures\ElvUI.tga]])
+LSM:Register("background", "ElvUILogo", [[Interface\AddOns\LumiSharedMedia\media\textures\ElvUILogo.tga]])
+--
+--Misc
+--
+LSM:Register("background", "Glow", [[Interface\AddOns\LumiSharedMedia\media\textures\Glow.tga]])
+--
+--ClassIcons
+--
+LSM:Register("background", "Ci1", [[Interface\AddOns\LumiSharedMedia\media\textures\Ci1.tga]])
+LSM:Register("background", "Ci2", [[Interface\AddOns\LumiSharedMedia\media\textures\Ci2.tga]])
+LSM:Register("background", "Ci3", [[Interface\AddOns\LumiSharedMedia\media\textures\Ci3.tga]])
+LSM:Register("background", "Ci4", [[Interface\AddOns\LumiSharedMedia\media\textures\Ci4.tga]])
+LSM:Register("background", "Ci5", [[Interface\AddOns\LumiSharedMedia\media\textures\Ci5.tga]])
+LSM:Register("background", "Ci6", [[Interface\AddOns\LumiSharedMedia\media\textures\Ci6.tga]])
+LSM:Register("background", "Ci7", [[Interface\AddOns\LumiSharedMedia\media\textures\Ci7.tga]])
+LSM:Register("background", "Ci8", [[Interface\AddOns\LumiSharedMedia\media\textures\Ci8.tga]])
+LSM:Register("background", "Ci9", [[Interface\AddOns\LumiSharedMedia\media\textures\Ci9.tga]])
+LSM:Register("background", "Ci10", [[Interface\AddOns\LumiSharedMedia\media\textures\Ci10.tga]])
+LSM:Register("background", "Ci11", [[Interface\AddOns\LumiSharedMedia\media\textures\Ci11.tga]])
+LSM:Register("background", "Ci12", [[Interface\AddOns\LumiSharedMedia\media\textures\Ci12.tga]])
+LSM:Register("background", "Ci13", [[Interface\AddOns\LumiSharedMedia\media\textures\Ci13.tga]])
 --
 ----
 -----Fonts
@@ -45,12 +68,15 @@ LSM:Register("font", "|cff820afaITCAvantGardeStdXLt|r", [[Interface\Addons\LumiS
 --
 --Positions-#fa0abe
 --
-LSM:Register("sound", "|cFFfa0abeFront|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Front.mp3]])
-LSM:Register("sound", "|cFFfa0abeBackMiddle|r", [[Interface\Addons\LumiSharedMedia\media\sounds\BackMiddle.mp3]])
-LSM:Register("sound", "|cFFfa0abeLeft|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Left.mp3]])
 LSM:Register("sound", "|cFFfa0abeBackLeft|r", [[Interface\Addons\LumiSharedMedia\media\sounds\BackLeft.mp3]])
-LSM:Register("sound", "|cFFfa0abeRight|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Right.mp3]])
+LSM:Register("sound", "|cFFfa0abeBackMiddle|r", [[Interface\Addons\LumiSharedMedia\media\sounds\BackMiddle.mp3]])
 LSM:Register("sound", "|cFFfa0abeBackRight|r", [[Interface\Addons\LumiSharedMedia\media\sounds\BackRight.mp3]])
+LSM:Register("sound", "|cFFfa0abeCenter|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Center.mp3]])
+LSM:Register("sound", "|cFFfa0abeClose|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Close.mp3]])
+LSM:Register("sound", "|cFFfa0abeFar|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Far.mp3]])
+LSM:Register("sound", "|cFFfa0abeFront|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Front.mp3]])
+LSM:Register("sound", "|cFFfa0abeLeft|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Left.mp3]])
+LSM:Register("sound", "|cFFfa0abeRight|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Right.mp3]])
 --
 --Countdowns-#82fa0a
 --
@@ -63,8 +89,11 @@ LSM:Register("sound", "|cFF82fa0aC10              |r", [[Interface\Addons\LumiSh
 --
 --#0a82fa
 --
+LSM:Register("sound", "|cFF0a82faAdd|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Add.mp3]])
+LSM:Register("sound", "|cFF0a82faAdds|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Adds.mp3]])
 LSM:Register("sound", "|cFF0a82faBait|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Bait.mp3]])
 LSM:Register("sound", "|cFF0a82faClear|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Clear.mp3]])
+LSM:Register("sound", "|cFF0a82faStack|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Stack.mp3]])
 --
 --#0afa82
 --
@@ -110,10 +139,23 @@ LSM:Register("sound", "|cFFfafa0aSpread|r", [[Interface\Addons\LumiSharedMedia\m
 --
 --SoundEffects-#0afabe
 --
-LSM:Register("sound", "|cFF0afabe123B|r", [[Interface\Addons\LumiSharedMedia\media\sounds\123B.mp3]])
-LSM:Register("sound", "|cFF0afabeWarble1|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Warble1.mp3]])
-LSM:Register("sound", "|cFF0afabeWarble2|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Warble2.mp3]])
+LSM:Register("sound", "|cFF0afabe123B-10%|r", [[Interface\Addons\LumiSharedMedia\media\sounds\123B-10%.mp3]])
+LSM:Register("sound", "|cFF0afabe123B-40%|r", [[Interface\Addons\LumiSharedMedia\media\sounds\123B-40%.mp3]])
+LSM:Register("sound", "|cFF0afabe123B-70%|r", [[Interface\Addons\LumiSharedMedia\media\sounds\123B-70%.mp3]])
+LSM:Register("sound", "|cFF0afabe123B-100%|r", [[Interface\Addons\LumiSharedMedia\media\sounds\123B-100%.mp3]])
+LSM:Register("sound", "|cFF0afabeWarble1-10%|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Warble1-10%.mp3]])
+LSM:Register("sound", "|cFF0afabeWarble1-40%|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Warble1-40%.mp3]])
+LSM:Register("sound", "|cFF0afabeWarble1-70%|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Warble1-70%.mp3]])
+LSM:Register("sound", "|cFF0afabeWarble1-100%|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Warble1-100%.mp3]])
+LSM:Register("sound", "|cFF0afabeWarble2-10%|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Warble2-10%.mp3]])
+LSM:Register("sound", "|cFF0afabeWarble2-40%|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Warble2-40%.mp3]])
+LSM:Register("sound", "|cFF0afabeWarble2-70%|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Warble2-70%.mp3]])
+LSM:Register("sound", "|cFF0afabeWarble2-100%|r", [[Interface\Addons\LumiSharedMedia\media\sounds\Warble2-100%.mp3]])
 LSM:Register("sound", "|cFF0afabeWaterDroplet1|r", [[Interface\Addons\LumiSharedMedia\media\sounds\WaterDroplet1.mp3]])
+LSM:Register("sound", "|cFF0afabeWBError-100%|r", [[Interface\Addons\LumiSharedMedia\media\sounds\WBError-100%.mp3]])
+LSM:Register("sound", "|cFF0afabeWBError-200%|r", [[Interface\Addons\LumiSharedMedia\media\sounds\WBError-200%.mp3]])
+LSM:Register("sound", "|cFF0afabeWBError-300%|r", [[Interface\Addons\LumiSharedMedia\media\sounds\WBError-300%.mp3]])
+LSM:Register("sound", "|cFF0afabeWBError-400%|r", [[Interface\Addons\LumiSharedMedia\media\sounds\WBError-400%.mp3]])
 
 --unused
 
